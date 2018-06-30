@@ -1,0 +1,8 @@
+{
+  "name": "estacionamento_mobile",
+  "app_id": "29d84673",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1"
+}

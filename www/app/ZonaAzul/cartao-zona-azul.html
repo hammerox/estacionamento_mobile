@@ -1,0 +1,52 @@
+<ion-view view-title="Cartão">
+  <ion-content>
+
+
+    <div class="pagamento">
+      <label class="item item-input item-valor">
+        <span class="input-label">Valor</span>
+        <input type="text" ng-disabled="true" ng-model="pagamento.valor" >
+      </label>
+
+      <label class="item item-input item-select text-white" style="padding-left: 0;">
+        <div class="input-label select-cartao" style="width: 100%;">
+          Bandeira:
+          <select class="select-cartao2" ng-model="pagamento.bandeira">
+            <option selected>MasterCard</option>
+            <option>Visa</option>
+            <option>Elo</option>
+          </select>
+        </div>
+      </label>
+        <label class="item item-input">
+          <input class="input-cartao" ng-model="pagamento.numero_cartao"  type="number" placeholder="Número do Cartão">
+        </label>
+        <label class="item item-input">
+          <input class="input-cartao" ng-model="pagamento.titular" type="text" placeholder="Nome do Titular">
+        </label>
+        <div class="row">
+          <div class="col col-33">
+            <label class="item item-input">
+              <input class="input-cartao" ng-model="pagamento.mes_vencimento" type="number" placeholder="MM">
+            </label>
+          </div>
+          <div class="col col-33">
+            <label class="item item-input">
+              <input class="input-cartao" ng-model="pagamento.ano_vencimento" type="number" placeholder="AA">
+            </label>
+          </div>
+          <div class="col col-33">
+            <label class="item item-input">
+              <input class="input-cartao" ng-model="pagamento.cvv" type="number" placeholder="C V V">
+            </label>
+          </div>
+        </div>
+
+        <div class="botaoAmarelo">
+          <button class="button button-block button-energized letter" ng-click="finalizaPagamento()">
+             Finalizar
+          </button>
+        </div>
+    </div>
+  </ion-content>
+</ion-view>

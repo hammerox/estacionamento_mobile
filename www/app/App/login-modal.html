@@ -1,0 +1,29 @@
+<ion-modal-view >
+	<ion-header-bar class="header-modal bar-positive">
+			<button class="button button-icon ion-ios-close-outline" ng-click="hideModalLogin()" ></button>
+		    <h2 class="title">Login</h2>
+      <button class="button button-icon ion-ios-checkmark-outline" ng-click="login()"></button>
+	</ion-header-bar>
+  <ion-content>
+		<div class="list">
+			<label class="item item-input item-floating-label">
+				<span class="input-label">Email</span>
+				<input  id="input1" type="email" ng-model="dadosLogin.usuario" ng-enter="goToInput(2)" placeholder="Email">
+			</label>
+			<label class="item item-input item-floating-label">
+				<span class="input-label">Senha</span>
+				<input id="input2" type="password" ng-model="dadosLogin.senha" ng-enter="login()" placeholder="Senha">
+			</label>
+			<label class="item">
+				<button class="button button-block button-positive" ng-click="login()" >Entrar</button>
+			</label>
+
+				<button class="button button-outline button-block button-positive" ng-click="resetSenha()" >Esqueci a senha</button>
+
+			<!-- <div class="button-bar">
+			  <a class="button icon-left ion-social-facebook button-positive">FACEBOOK</a>
+			  <a class="button icon-right ion-social-google button-assertive">GOOGLE</a>
+			</div> -->
+		</div>
+  </ion-content>
+</ion-modal-view>

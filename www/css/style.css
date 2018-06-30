@@ -1,0 +1,595 @@
+/* Barra Superior*/
+
+.item{
+    background-color: transparent!important;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+    background-color: transparent!important;
+}
+.bar-color {
+    background: #07071f !important;
+    border-bottom: 1px solid #fcb000 !important;
+}
+
+.bar.bar-color .title {
+    color: #fcb000;
+    font-weight: 400;
+}
+
+.bar-color .button.button-clear{
+    color: #fcb000;
+}
+
+.bar.bar-stable {
+    border-color: #b2b2b2;
+    background-color: #000;
+    background-image: linear-gradient(0deg, #fcb000, #fcb000 50%, transparent 50%);
+    color: #444;
+}
+/*Fim da barra superior*/
+
+.col{
+	padding: 0px;
+    }
+
+.col .item {
+    text-align: center;
+    height: 100%;
+    border: 0;
+}
+
+.col .item a{
+ padding: 0;
+}
+
+.col .fullscren{
+    padding: 23.6px;
+    line-height: 28.5px;
+}
+.item{
+    background-color: transparent ;
+}
+
+.item-complex .item-content, .item-radio .item-content{
+    background-color: transparent;!important;
+}
+
+.icon-md{
+  font-size: 250%;
+}
+
+.icon-pq{
+    font-size: 1.3rem;
+}
+
+.icon-yellow{
+	color: #fcb000;
+}
+
+.padzero .col .item p {
+    font-weight: 700;
+    padding-top: 10px;
+    color: #fcb000;
+    height: 20px;
+    line-height: 1px;
+    border-radius: 100px;
+    font-size: 10px;
+    margin-top: 10%;
+    border-bottom: 1px solid #fcb000;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.icone-item-estacionamento{
+    right:28px;
+    position: absolute;
+    top: 25px;
+    border-radius: 100%;
+    color: #070820;
+}
+
+.icone-item-estacionamento:hover{
+    color: #fcb000!important;
+    background-color: #c7c7c7!important;
+}
+
+
+
+
+/*-----------------------------------------------------------Menu*/
+.item{
+    border: none!important;
+    color: #fff;
+    font-weight: 100;
+}
+.menuicons{
+    border: none!important;
+}
+.yellowfont{
+    color: #fcb000!important;
+}
+.menuCustom ion-item{
+    border-left: 1px solid #fcb000 !important;
+    margin: 0 0 0 10px;
+    padding: 0;
+    height: 60px;
+}
+.marginRight{
+    margin-right: 15px;
+    border-bottom: 1px solid #fcb000;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.menuicons p{
+    margin: -5px 0 0 15px;
+    padding: 0;
+    color: #fff;
+    font-weight: 300;
+}
+.menuicons p:hover{
+    color: #fcb000;
+}
+.menuicons .yellowfont{
+    color: #fcb000;
+    margin-right: 9px;
+    font-size: 1.2rem;
+}
+
+.menuCustom ion-item{
+    border-left: 1px solid #fcb000;
+}
+
+.menuCustom ion-item .bolinha{
+    font-size: 3.5rem;
+    position: fixed;
+    left: 4.2px;
+    bottom: 10px;
+}
+.menuCustom .item-complex .item-content{
+    padding: 0 ;
+ }
+ /*-----------------------------------------------------------Home*/
+
+ion-content{
+    background: url(../img/backgrounds/background.png);
+    background-size: 100%;
+    height: auto!important;
+}
+
+.padzero{
+    padding: 0!important;
+}
+
+.borderblack{
+    border: 1px solid #000;
+}
+.zonazul{
+    background: url("../img/backgrounds/zonazul.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.zonazul:hover{
+    opacity: 0.2;
+}
+.estacionamento{
+    background: url("../img/backgrounds/estacionamento.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.estacionamento:hover{
+    opacity: 0.2;
+}
+.lavagem{
+    background: url("../img/backgrounds/lavagem.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.lavagem:hover{
+    opacity: 0.2;
+}
+.polimento {
+    background: url("../img/backgrounds/polimento.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.polimento:hover{
+    opacity: 0.2;
+}
+.bicicleta{
+    background: url("../img/backgrounds/bicicleta.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.bicicleta:hover{
+    opacity: 0.2;
+}
+.carro{
+    background: url("../img/backgrounds/carro.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.carro:hover{
+    opacity: 0.2;
+}
+.despachante{
+    background: url("../img/backgrounds/despachante.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.despachante:hover{
+    opacity: 0.2;
+}
+.levaetras{
+    background: url("../img/backgrounds/levaetras.png");
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #000 inset;
+}
+.levaetras:hover{
+    opacity: 0.2;
+}
+.bar .button.back-button, .bar button.back-button {
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.platform-android .action-sheet-cancel {
+    display: block !important;
+}
+
+/*----------------------------------------------------------- Destino*/
+.inputpadding input{
+    color: #fff;
+    border-bottom: 2px solid #fcb000;
+    border-top: 2px solid #fcb000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 16px 0 12px;
+    font-weight: 100;
+}
+
+.inputpadding{
+   padding: 30px 25px 15px 25px!important
+}
+.button.button-positive.button-outline {
+    border-color: #387ef5;
+    background: #387ef5;
+    color: #fff;
+    font-weight: 100;
+}
+.button.button-positive:hover.button-outline:hover {
+    border-color: #387ef5;
+    background: rgba(56,126,245,.2);
+    color: #fff;
+    font-weight: 100;
+}
+.paddingCustom{
+    padding: 0px 37px;
+}
+
+/*-----------------------------------------------------------Lista Estacionamento*/
+
+.listaestacionamento{
+    border-left: 3px solid #fcb000!important;
+    margin-left: 8px;
+    margin-top: 6px;
+    background: #101010;
+    box-shadow: 8px 5px 15px #000 inset;
+}
+.listaestacionamento:hover {
+    border-left: 3px solid #fff!important;
+
+}
+.listaestacionamento h2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.listaestacionamento .distancia{
+    color: #c2c2c2;
+}
+
+.listaestacionamento p {
+    color: #fcb000;
+}
+
+/*-----------------------------------------------------------detalhe estacionamento*/
+
+.cabecalho p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    background: rgba(16,16,16,.7);
+    box-shadow: 10px 10px 30px #000 inset;
+    padding: 3%;
+    margin: 0 0 0 0;
+}
+
+.cabecalho i{
+   margin-right: 13px;
+}
+
+.linha {
+    height: 10%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.linha.header{
+    background-color: #070820;
+    color: #fff;
+    padding: 5%;
+    box-shadow: 0px 20px 47px #000 inset;
+    border-top: 1px solid #fcb000;
+    color: #fcb000;
+    font-size: 17px;
+    margin-top: 2%;
+}
+
+.coluna{
+    padding: 18px;
+    border: none;
+    color: #fff;
+    background: rgba(16,16,16,.7);
+    box-shadow: 7px 10px 10px #000 inset;
+}
+
+.cabecalho-detalhes{
+    padding-left: 15px;
+}
+/*-----------------------------------------------------------cartão*/
+
+input[disabled], select[disabled], textarea[disabled], input[readonly]:not(.cloned-text-input), textarea[readonly]:not(.cloned-text-input), select[readonly] {
+    background-color: transparent;
+}
+.input-cartao{
+    display: none;
+}
+
+.input-label{
+    max-width: 100%;
+}
+.pagamento{
+    padding: 2%;
+}
+
+.botaoAmarelo{
+    padding: 5% 10% 10% 10%;
+
+}
+
+.botaoAmarelo .letter{
+    color: #070820;
+    font-weight: 700;
+    box-shadow: 0px 2px 20px #070820 inset;
+    border: none;
+}
+
+.input-cartao{
+    border-bottom: 1px solid rgba(255,255,255,0.5) !important;
+    color: #fff !important;
+    padding-right: 0 !important;
+    margin-right: 15px !important;
+    background: rgba(56,57,58,0.5)!important;
+    padding: 9px!important;
+    box-shadow: 0px 4px 20px #000 inset;
+}
+
+.col-cartao{
+  padding-right: 0;
+}
+
+.select-cartao{
+    border-bottom: 1px solid rgba(255,255,255,0.5) !important;
+    color: #fff !important;
+    padding-left: 0 !important;
+    margin-right: 15px !important;
+    background: rgba(56,57,58,0.5)!important;
+    padding: 9px!important;
+    box-shadow: 0px 4px 20px #000 inset;
+}
+
+.select-cartao2{
+    color: #fcb000 !important;
+    padding-right: 30px !important;
+    margin-right: 15px !important;
+    background: transparent!important;
+}
+
+.button-energized{
+  border-color: #ffc900 !important;
+}
+
+.boleto{
+    background: url("../img/boleto.jpg");
+    background-size: 100%;
+}
+
+.item-divider-transferencia{
+    color: #070820;
+    background-color: #fcb000!important;
+    margin-bottom: 1px;
+    box-shadow: -2px 3px 15px #070820 inset;
+    font-weight: 600;
+}
+
+.item-transferencia{
+    padding-left: 15px;
+    color: #fff;
+    box-shadow: 4px 6px 32px #474647 inset;
+    margin: 0;
+    padding: 3%;
+}
+
+.item-valor{
+    border-bottom: 1px solid rgba(255,255,255,0.5) !important;
+    color: #fff !important;
+    padding-right: 0 !important;
+    background: rgba(56,57,58,0.5)!important;
+    padding: 0 9px!important;
+    box-shadow: 0px 4px 20px #000 inset;
+    margin-bottom: 7px;
+}
+
+
+.item-valor span{
+  color: #fff;
+
+}
+
+.item-valor input{
+  color: #fff;
+  text-align: right;
+}
+
+.texto-em-desenvolvimento{
+  color:#fff;
+  text-align: center;
+  padding-top: 50%;
+}
+
+.texto-em-desenvolvimento i{
+  font-size: 50px;
+}
+
+
+.texto-sem-estacionamentos{
+  color:#fff;
+  text-align: center;
+  padding-top: 50%;
+}
+
+.text-gray{
+    color: #333 !important;
+}
+/*-----------------------------------------------------------créditos zona azul*/
+.creditosazul{
+    padding: 0;
+    box-shadow: 0px -20px 40px #000 inset;
+    padding-bottom: 10%;
+}
+.creditosazul .col .item {
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    background-color: rgba(16,16,16,.5)!important;
+    box-shadow:  1px 1px 30px #000 inset;
+    margin-bottom: 45%;
+    border: 2px solid rgba(144,144,144,.5)!important;
+}
+.creditosazul .col .item:hover{
+    border: 2px solid #fcb000!important;
+    box-shadow:  1px 1px 10px #fff inset;
+
+}
+.creditosazul .col .item p{
+    font-size: 15px;
+    color: #fcb000;
+    padding: 2px;
+    font-weight: 400;
+}
+.creditosazul .col .item p:hover{
+    color: #fff;
+    font-weight: 700;
+}
+.item-redondo{
+
+    border-radius: 100%;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-red{
+    color: #DE0404 ;
+}
+
+
+.text-center{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.subtittle{
+    font-size: 12px;
+    color: #fcb000;
+    box-shadow: 1px -20px 40px #000 inset;
+    margin-bottom: 10%;
+}
+
+
+/*----------------------------------------------------------- Media*/
+
+@media screen and (min-width: 360px){
+    .col .fullscren{
+        padding: 18%;
+        line-height: 36px;
+    }
+    .coluna {
+        padding: 24px;
+    }
+    .creditosazul .col .item{
+        margin-bottom: 60%;
+    }
+}
+@media screen and (min-width: 375px) {
+    .col .fullscren {
+        padding: 13%;
+        line-height: 67px;
+    }
+
+    .creditosazul .col .item{
+        margin-bottom: 71%;
+    }
+    .menuCustom ion-item .bolinha {
+        font-size: 5.5rem;
+        position: fixed;
+        left: 1px;
+        bottom: 21px;
+    }
+}
+@media screen and (min-width: 412px){
+    .col .fullscren{
+        padding: 15%;
+        line-height: 35px;
+    }
+}
+@media screen and (min-width: 768px){
+    .col .fullscren{
+        padding: 18%;
+        line-height: 53px;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .col .fullscren {
+        padding: 19%;
+        line-height: 77px;
+    }
+}
+
+
+/*------------------------ codepen io*/
+
+.icon-circle, .icon-circle-large, .icon-circle-small {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    width: 55px;
+    height: 55px;
+    font-size: 35px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    box-shadow: 0px 0px 10px #000 inset;
+    background: #fcb000;
+}
+
+

@@ -1,0 +1,49 @@
+<ion-view view-title="Estacionamento #{{estacionamento.id}}">
+  <ion-content class="cabecalho">
+
+    <p class="cabecalho-detalhes "><i class="icon ion-ios-home icon-pq icon-yellow"></i>&nbsp;{{estacionamento.empresa}} {{estacionamento.edificio}} #{{estacionamento.id}}</p>
+    <p class="cabecalho-detalhes "><i class="icon ion-pin icon-pq icon-yellow"></i>&nbsp;{{estacionamento.endereco}} - {{estacionamento.cep}}</p>
+    <p class="cabecalho-detalhes "><i class="icon ion-ios-alarm icon-pq icon-yellow"></i>&nbsp;Horário Funcionamento: {{estacionamento.horario}}</p>
+
+
+    <!-- <p ng-hide="estacionamento.mensalidade == 0">Mensalidade: R{{estacionamento.mensalidade | currency}}</p>
+    <p ng-hide="estacionamento.mensalidade_moto == 0">Mensalidade Moto: R{{estacionamento.mensalidade_moto | currency}}</p>
+    <p ng-hide="estacionamento.valor_avulso_meia_hora == 0">Avulso 30 min: R{{estacionamento.valor_avulso_meia_hora | currency}}</p></p>
+    <p ng-hide="estacionamento.valor_avulso_hora == 0">Avulso 1 h: R{{estacionamento.valor_avulso_hora | currency}}</p>
+    <p ng-hide="estacionamento.valor_demais_horas == 0">Demais horas: R{{estacionamento.valor_demais_horas | currency}}</p>
+    <p ng-hide="estacionamento.valor_diaria == 0">Diaria: R{{estacionamento.valor_diaria | currency}}</p> -->
+
+
+        <div class="row header linha">
+          <div class="col col-center">Preços</div>
+        </div>
+        <div class="row linha" >
+          <div class="col coluna yellowfont">Mensalidade:</div>
+          <div class="col coluna">R{{estacionamento.mensalidade | currency}}</div>
+        </div>
+        <div class="row linha">
+          <div class="col coluna yellowfont">Mensalidade Moto:</div>
+          <div class="col coluna">R{{estacionamento.mensalidade_moto | currency}}</div>
+        </div>
+        <div class="row linha">
+          <div class="col coluna yellowfont">Avulso 30 min:</div>
+          <div class="col coluna">R{{estacionamento.valor_avulso_meia_hora | currency}}</div>
+        </div>
+        <div class="row linha">
+          <div class="col coluna yellowfont">Avulso 1 h:</div>
+          <div class="col coluna">R{{estacionamento.valor_avulso_hora | currency}}</div>
+        </div>
+        <div class="row linha">
+          <div class="col coluna yellowfont">Demais horas:</div>
+          <div class="col coluna">R{{estacionamento.valor_demais_horas | currency}}</div>
+        </div>
+        <div class="row linha">
+          <div class="col coluna yellowfont">Diaria:</div>
+          <div class="col coluna">R{{estacionamento.valor_diaria | currency}}</div>
+        </div>
+
+
+
+
+  </ion-content>
+</ion-view>

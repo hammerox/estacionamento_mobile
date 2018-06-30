@@ -1,0 +1,20 @@
+<ion-view view-title="Estacionamentos">
+  <ion-content>
+    <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+
+    <ion-list class="lista-magica">
+ 		<ion-item class="item listaestacionamento"  ng-if="estacionamento.distancia.value <= raio.valor" ng-repeat="estacionamento in estacionamentos | orderBy: 'distancia.value'" href="#/app/detalhe-estacionamento/{{estacionamento.id}}">
+            <!-- <img ng-src="../../img/estacionamento.png"> -->
+            <h2>{{estacionamento.empresa}} {{estacionamento.edificio}}</h2>
+            <p class="distancia">{{estacionamento.distancia.text}}
+            <p>R{{estacionamento.valor_avulso_hora | currency}}</p>
+            <!-- <input ng-model="estacionamento.distancia"></input> -->
+
+           	<a class="button icone-item-estacionamento"  ng-click="launchNavigator('{{estacionamento.endereco}}')">
+ 						       <i class="icon ion-navigate"></i>
+ 						</a>
+ 				</ion-item>
+ 		</ion-list>
+    <p class="texto-sem-estacionamentos" ng-show="temItem == false">Não há estacionamentos próximos ao destino.</p>
+  </ion-content>
+</ion-view>

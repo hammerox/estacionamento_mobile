@@ -1,0 +1,18 @@
+<ion-view view-title="Estacionamentos">
+  <ion-content>
+    <div class="list">
+       <!-- <div class="item item-input input-origem inputpadding">
+         <i class="icon ion-ios-location placeholder-icon"></i>
+         <ion-google-place radius="1500000" search-placeholder="Digite o endereço" placeholder="Endereço de destino" ng-model="local.destino" required name="destino" location-changed="locationChanged"/>
+       </div> -->
+<div class="item item-input input-origem inputpadding">
+   <input type="text" placeholder="Digite o Endereço" location-suggestion location="local.destino" ng-model="local.destino">
+</div>
+   <div class="paddingCustom">
+     <button class="button button-block button-outline button-positive button-busca-carona" ng-click="buscaEstacionamentos()">
+       Buscar
+     </button>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>
